@@ -188,3 +188,74 @@ nav ul li a:hover{
 	opacity: 0.5;
 }
 /*------------------------- FIM COLABORADORES -----------------------*/
+
+/*-------------------------FOOTER -----------------------*/
+footer{
+	background: #2c2c2c;
+	font-weight: bold;
+}
+footer p {
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-weight: 700;
+
+}
+/*------------------------*/
+#atendimento{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	float: left;
+	text-align: right;
+	
+}
+#atendimento p span{
+	font-size: 22px;	
+}
+#atendimento img{
+	float: left;
+	margin: 5px 0 0 0 ;
+}
+/*------------------------*/
+#email{
+	text-align: center;
+	padding: 15px 0 15px 0;
+	float: left;
+}
+
+/*-----------------------*/
+#social{
+	float: left;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#social p{
+	text-align: center;
+	color: #ff9400;
+}
+#social p a{
+	opacity: 0.2;
+}
+#social p a:hover{
+	opacity: 0.5;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	transition: 0.5s;
+}
+#social p a img{
+	margin: 10px 10px 10px 10px;
+}
+/*------------------------*/
+#desenvolvedor{
+	height: 15px;
+	background: #ff9400;
+}
+#desenvolvedor p {
+	font-size: 10px;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
