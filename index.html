@@ -12,11 +12,18 @@
 	
 	<link rel="stylesheet" type="text/css" media="all" href="bower_components/normalize-css/normalize.css">	
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	
-	<!-- bxSlider CSS file -->	
 	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" >
+	<link rel="stylesheet" type="text/css" href="css/jCarousel.css">
+	
+	<!-- jquery -->
+
 	<script type="text/javascript" src="bower_components/jquery/jquery.min.js"></script>
+
+	<!-- bxSlider  -->	
 	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+	<!-- jCarousel -->
+	<script type="text/javascript" src="js/jCarousel.js"></script>
+
 	<script type="text/javascript" src="js/custom.js"></script>
 
 </head>
@@ -42,17 +49,15 @@
 			</nav>
 		</div>
 		<div class="clear"></div>
-	</header>
-		
-		
-		<section id="slider" class="conteiner">
-			<ul class="bxslider">
-				<!-- Sliders 940x300 -->
-	  			<li><img src="images/slide1.jpg" title="Funky roots" /></li> 
-	  			<li><img src="images/slide2.jpg" title="Funky roots" /></li>
-	  			<li><img src="images/slide3.jpg" title="Funky roots" /></li>  			
-			</ul>		
-		</section>
+	</header>	
+	<section id="slider" class="conteiner">
+		<ul class="bxslider">
+			<!-- Sliders 940x300 -->
+  			<li><img src="images/slide1.jpg" title="Funky roots" /></li> 
+  			<li><img src="images/slide2.jpg" title="Funky roots" /></li>
+  			<li><img src="images/slide3.jpg" title="Funky roots" /></li>  			
+		</ul>		
+	</section>
 	
 	<section id="destaques" class="conteiner">
 		<div class="third">
@@ -70,10 +75,23 @@
 			<img src="images/resultado-fersan.jpg" height="114" width="140">
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id mauris nec dui bibendum mattis sed ultrices ipsum. Proin sit amet ligula mi. Sed ultrices felis vel purus facilisis interdum.</p>
 		</div>
-		<div class="clear"></div>
+		
 	</section>
 
-	<section id="colaboradores" class="conteiner"></section>
+	<section id="colaboradores" class="conteiner" class="clear">
+		<div class="third left hr"><hr></div>
+		<div class="third left"><h3>Alguns de nossos parceiros e colaboradores</h3/></div>
+		<div class="third left hr"><hr></div>
+		<div class="clear"></div>
+		
+		<ul id="mycarousel" class="jcarousel-skin-tango">
+    		<li><img src="images/odonto-system.jpg" width="205" height="75" alt="" /></li>
+    		<li><img src="images/unimed.jpg" width="205" height="75" alt="" /></li>
+    		<li><img src="images/nuths.jpg" width="205" height="75" alt="" /></li>
+    		<li><img src="images/plavinorte.jpg" width="205" height="75" alt="" /></li>
+    		<li><img src="images/plavinorte.jpg" width="205" height="75" alt="" /></li>    		
+  		</ul>
+	</section>
 
 	<footer></footer>
 </body>
