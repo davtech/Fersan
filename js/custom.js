@@ -4,3 +4,6 @@ $(document).ready(function(){
 		pager: false
 	});
 });
+$(document).ready(function() {
+    $('#mycarousel').jcarousel();
+});
