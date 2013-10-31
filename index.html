@@ -8,11 +8,19 @@
 	<meta name="description" content="Leve descrição">
 	<meta name="author" content="Lebre Digital">
 	
-	<link rel="stylesheet" type="text/css" media="all" href="bower_components/normalize-css/normalize.css">
+	
+	
+	<link rel="stylesheet" type="text/css" media="all" href="bower_components/normalize-css/normalize.css">	
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-
+	
+	<!-- bxSlider CSS file -->	
+	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" >
+	<script type="text/javascript" src="bower_components/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
 
 </head>
+
 <body>
 	<header>
 		<div id="top"></div>	
@@ -20,8 +28,8 @@
 				
 			<div id="logo" class="left">
 				<h1>Fersan</h1>
-				<a href="index.html">
-					<img src="images/logo.png">
+				<a href="index.html" title="voltar ao início">
+					<img src="images/logo.png" alt="logotipo Fersan">
 				</a>				
 			</div>
 			<nav>
@@ -35,19 +43,19 @@
 		</div>
 		<div class="clear"></div>
 	</header>
-	
-	<section id="slider">
 		
-	</section>
-	
-	<section id="destaques">
 		
+		<section id="slider" class="conteiner">
+			<ul class="bxslider">
+				<!-- Sliders 940x300 -->
+	  			<li><img src="images/slide1.jpg" title="Funky roots" /></li> 
+	  			<li><img src="images/slide2.jpg" title="Funky roots" /></li>
+	  			<li><img src="images/slide3.jpg" title="Funky roots" /></li>  			
+			</ul>		
+		</section>
+	
+	<section id="destaques">		
 	</section>
-
-
 	<footer></footer>
-
-
-
 </body>
 </html>
